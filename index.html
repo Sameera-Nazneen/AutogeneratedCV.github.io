@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <div class="left">
+            <form>
+                <!-- Name , Email , Phone , Github , Linkedin -->
+                Name                :<input type="text" name="name"><br>
+                Email               :<input type="text" name="Email"><br>
+                Phone               :<input type="text" name="Phone"><br>
+                Github              :<input type="text" name="Github"><br>
+                Linkedin            :<input type="text" name="Linkedin"><br>
+                <fieldset>
+                    <legend>Education</legend>
+                    <!-- Degree , College , Starting Year , Passing Year , CGPA -->
+                    Degree          :<input type="text" name="Degree"><br>
+                    College         :<input type="text" name="College"><br>
+                    Starting Year   :<input type="text" name="Starting Year"><br>
+                    Passing Year    :<input type="text" name="Passing Year"><br>
+                    CGPA            :<input type="text" name="CGPA"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Skills</legend>
+                    <!-- skills -->
+                    Skills          :<textarea id="skills" name="skills" rows="4" cols="50"></textarea></fieldset><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Projects</legend>
+                    <!-- Project , Description , Link -->
+                    Project         :<input type="text" name="Project"><br>
+                    Description     :<textarea id="Description" name="Description" rows="4" cols="50"></textarea><br>
+                    Link            :<input type="text" name="Link"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Experience</legend>
+                    <!-- Company , Designation , Duration , Description -->
+                    Company         :<input type="text" name="Company"><br>
+                    Designation     :<input type="text" name="Designation"><br>
+                    Duration        :<input type="text" name="Duration"><br>
+                    Description     :<textarea id="Description" name="Description" rows="4" cols="50"></textarea><br>
+                </fieldset>
+                <button type="submit" class="btn">submit</button>
+                <button type="reset" class="btn">reset</button>
+                <button class="btn" onclick="handleLeft()"><<</button>
+            </form>
+        </div>
+        <div class="right">
+            <div class="block1">
+                <!-- Name -->
+                <!--Email , Phone , Github , Linkedin  -->
+            </div>
+            <div class="block2">
+                <h2>Education</h2>
+            </div>
+            <div class="block3">
+            </div>
+            <div class="block4">
+                <h2>Project</h2>
+            </div>
+            <div class="block5">
+                <h2>Experience</h2>
+            </div>
+            <button class="btn print" onclick="handlePrint()">Print</button>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
