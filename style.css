@@ -37,6 +37,53 @@ main>.left{
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
+.PersonalInfo input{
+    margin-left: 8em;
+}
+
+.PersonalInfo label{
+    position: absolute;
+}
+
+.Education input{
+    margin-left: 8em;
+}
+
+.Education label{
+    position: absolute;
+}
+
+.Skills textarea{
+    margin-left: 8em;
+}
+
+.Skills label{
+    position: absolute;
+}
+
+.ProjectInfo textarea{
+    margin-left: 8em;
+}
+
+.ProjectInfo label{
+    position: absolute;
+}
+
+.ProjectInfo input{
+    margin-left: 8em;
+}
+
+.ExperienceInfo textarea{
+    margin-left: 8em;
+}
+
+.ExperienceInfo label{
+    position: absolute;
+}
+
+.ExperienceInfo input{
+    margin-left: 8em;
+}
 main>.left legend{
     color: black;
     font-weight: 600;
@@ -79,6 +126,7 @@ main>.right>.block1{
     color: gray;
     width: 60vw;
 }
+
 .print{
     display: none;
 }
