@@ -38,7 +38,7 @@ main>.left{
     border-bottom-right-radius: 0.5rem;
 }
 .PersonalInfo input{
-    margin-left: 8px;
+    margin-left: 8em;
 }
 
 .PersonalInfo label{
@@ -46,7 +46,7 @@ main>.left{
 }
 
 .Education input{
-    margin-left: 8px;
+    margin-left: 8em;
 }
 
 .Education label{
@@ -54,7 +54,7 @@ main>.left{
 }
 
 .Skills textarea{
-    margin-left: 8px;
+    margin-left: 8em;
 }
 
 .Skills label{
@@ -62,7 +62,7 @@ main>.left{
 }
 
 .ProjectInfo textarea{
-    margin-left: 8px;
+    margin-left: 8em;
 }
 
 .ProjectInfo label{
@@ -70,11 +70,11 @@ main>.left{
 }
 
 .ProjectInfo input{
-    margin-left: 8px;
+    margin-left: 8em;
 }
 
 .ExperienceInfo textarea{
-    margin-left: 8px;
+    margin-left: 8em;
 }
 
 .ExperienceInfo label{
@@ -82,7 +82,7 @@ main>.left{
 }
 
 .ExperienceInfo input{
-    margin-left: 8px;
+    margin-left: 8em;
 }
 main>.left legend{
     color: black;
