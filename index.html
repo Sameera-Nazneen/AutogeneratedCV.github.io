@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
 
@@ -12,40 +12,50 @@
     <main>
         <div class="left">
             <form>
-                <!-- Name , Email , Phone , Github , Linkedin -->
-                Name                :<input type="text" name="name"><br>
-                Email               :<input type="text" name="Email"><br>
-                Phone               :<input type="text" name="Phone"><br>
-                Github              :<input type="text" name="Github"><br>
-                Linkedin            :<input type="text" name="Linkedin"><br>
+                <div class="PersonalInfo">
+                    <!-- name , Email , Phone , Github , Linkedin -->
+                    <label>Name:</label><input type="text" name="Name" placeholder="Enter Name"><br>
+                    <label>Email:</label><input type="text" name="Email" placeholder=" Enter Email"><br>
+                    <label>Phone:</label><input type="text" name="Phone" placeholder="Enter Phone"><br>
+                    <label>Github</label><input type="text" name="Github" placeholder="Enter Github"><br>
+                    <label>Linkedin:</label><input type="text" name="Linkedin" placeholder="Enter Linkedin"><br>
+                </div>
                 <fieldset>
                     <legend>Education</legend>
                     <!-- Degree , College , Starting Year , Passing Year , CGPA -->
-                    Degree          :<input type="text" name="Degree"><br>
-                    College         :<input type="text" name="College"><br>
-                    Starting Year   :<input type="text" name="Starting Year"><br>
-                    Passing Year    :<input type="text" name="Passing Year"><br>
-                    CGPA            :<input type="text" name="CGPA"><br>
+                    <div class="Education">
+                        <label>Degree:</label><input type="text" name="Degree" placeholder="Enter your Degree"><br>
+                        <label>College:</label><input type="text" name="College" placeholder="Enter College name"><br>
+                        <label>Starting Year:</label><input type="text" name="Starting Year" placeholder="Enter Starting year"><br>
+                        <label>Passing Year:</label><input type="text" name="Passing Year" placeholder="Enter Passing year"><br>
+                        <label>CGPA:</label><input type="text" name="CGPA" placeholder="Enter CGPA"><br>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Skills</legend>
                     <!-- skills -->
-                    Skills          :<textarea id="skills" name="skills" rows="4" cols="50"></textarea></fieldset><br>
+                    <div class="Skills">
+                        <label>Skills:</label><textarea id="skills" class="skills" rows="3" cols="30" placeholder="Skills..."></textarea>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Projects</legend>
                     <!-- Project , Description , Link -->
-                    Project         :<input type="text" name="Project"><br>
-                    Description     :<textarea id="Description" name="Description" rows="4" cols="50"></textarea><br>
-                    Link            :<input type="text" name="Link"><br>
+                    <div class="ProjectInfo">
+                        <label>Project:</label><input type="text" name="Project" placeholder="Project Name"><br>
+                        <label>Description:</label><textarea id="Description" class="Description" rows="3" cols="30" placeholder="Project Description"></textarea><br>
+                        <label>Link:</label><input type="text" name="Link" placeholder="Project link"><br>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Experience</legend>
                     <!-- Company , Designation , Duration , Description -->
-                    Company         :<input type="text" name="Company"><br>
-                    Designation     :<input type="text" name="Designation"><br>
-                    Duration        :<input type="text" name="Duration"><br>
-                    Description     :<textarea id="Description" name="Description" rows="4" cols="50"></textarea><br>
+                    <div class="ExperienceInfo">
+                        <label>Company:</label><input type="text" name="Company" placeholder="Enter Company name"><br>
+                        <label>Designation:</label><input type="text" name="Designation" placeholder="Enter your Designation"><br>
+                        <label>Duration:</label><input type="text" name="Duration" placeholder="Enter Duration"><br>
+                        <label>Description:</label><textarea id="Description" class="Description" rows="3" cols="30" placeholder="Describe your project"></textarea><br>
+                    </div>
                 </fieldset>
                 <button type="submit" class="btn">submit</button>
                 <button type="reset" class="btn">reset</button>
@@ -54,7 +64,7 @@
         </div>
         <div class="right">
             <div class="block1">
-                <!-- Name -->
+                <!-- name -->
                 <!--Email , Phone , Github , Linkedin  -->
             </div>
             <div class="block2">
@@ -73,5 +83,3 @@
     </main>
 
     <script src="./app.js"></script>
-</body>
-</html>
