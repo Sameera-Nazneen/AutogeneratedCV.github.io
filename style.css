@@ -37,17 +37,6 @@ main>.left{
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
-
-main>.left legend{
-    color: black;
-    font-weight: 600;
-    margin: 0.5rem 0;
-}
-main>.left fieldset{
-    border: none;
-    border-top: 1px dashed #000;
-}
-
 .PersonalInfo input{
     margin-left: 8em;
 }
@@ -95,6 +84,15 @@ main>.left fieldset{
 .ExperienceInfo input{
     margin-left: 8em;
 }
+main>.left legend{
+    color: black;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+main>.left fieldset{
+    border: none;
+    border-top: 1px dashed #000;
+}
 
 .btn{
     margin-top: 0.5rem;
@@ -132,4 +130,3 @@ main>.right>.block1{
 .print{
     display: none;
 }
-
